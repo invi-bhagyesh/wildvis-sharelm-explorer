@@ -85,16 +85,6 @@
   }
 }
 
-@layer base {
-  html {
-    @apply bg-dark-bg text-dark-text;
-  }
-
-  body {
-    @apply bg-dark-bg text-dark-text min-h-screen;
-  }
-}
-
 @layer components {
   .card {
     @apply bg-dark-surface border border-dark-border rounded-lg p-4 hover:border-blue-500 transition-colors;
